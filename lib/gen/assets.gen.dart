@@ -15,11 +15,14 @@ class $AssetsImagesGen {
   /// File path: assets/images/Task Done.json
   String get taskDone => 'assets/images/Task Done.json';
 
+  /// File path: assets/images/empty Tasks.json
+  String get emptyTasks => 'assets/images/empty Tasks.json';
+
   /// File path: assets/images/user .png
   AssetGenImage get user => const AssetGenImage('assets/images/user .png');
 
   /// List of all assets
-  List<dynamic> get values => [taskDone, user];
+  List<dynamic> get values => [taskDone, emptyTasks, user];
 }
 
 class Assets {

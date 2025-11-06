@@ -35,9 +35,6 @@ class _SplashScreenState extends State<SplashScreen> {
             Text("Taskati", style: AppTextStyle.font20Bold,),
             SizedBox(height: 20,),
             Text("It's Time to get Organized", style: AppTextStyle.font16Gray,),
-
-
-
           ],
         ),
       ),
